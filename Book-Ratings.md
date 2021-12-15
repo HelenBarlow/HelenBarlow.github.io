@@ -8,6 +8,6 @@ permalink: /book-ratings/
     <title>Page title</title>
   </head>
   <body>
-    <p>Hello, World!</p>
+    <p>Hello, World!!</p>
   </body>
 </html>
