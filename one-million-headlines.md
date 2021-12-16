@@ -10,4 +10,4 @@
 
 This animation was made using 1,226,259 ABC headlines from February 2003 to December 2020.
 The most frequently used terms appear closer to the middle and darker.
-Code available at https://github.com/HelenBarlow/Some-graphs
+Code available at <a href="https://github.com/HelenBarlow/Some-graphs">https://github.com/HelenBarlow/Some-graphs</a>
