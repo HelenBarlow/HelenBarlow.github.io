@@ -122,37 +122,43 @@ Tests for normality and equal variances below.
 
 <img width="415" alt="awardsSum" src="https://user-images.githubusercontent.com/92626980/146301972-213bfc9e-b649-4b80-b1ba-0a542d96c548.png">
 
-Man Booker Prize:  NormaltestResult(statistic=5.107901052365614, pvalue=0.0777738108305568) </br>
-Pulitzer Prize:  NormaltestResult(statistic=2.1736454444546185, pvalue=0.33728644576634276) </br>
-The Goodreads Choice Award:  NormaltestResult(statistic=56.87954880748067, pvalue=4.4541302205934914e-13) *** </br>
-The Edgar Award:  NormaltestResult(statistic=2.359730014850332, pvalue=0.3073202217491422) </br>
-RITA Award:  NormaltestResult(statistic=0.37876843912625086, pvalue=0.8274685160178017) </br>
-No awards:  NormaltestResult(statistic=1117.052423000484, pvalue=2.7236314923093435e-243) *** </br>
+<html>
+   Man Booker Prize:  NormaltestResult(statistic=5.107901052365614, pvalue=0.0777738108305568) </br>
+   Pulitzer Prize:  NormaltestResult(statistic=2.1736454444546185, pvalue=0.33728644576634276) </br>
+   The Goodreads Choice Award:  NormaltestResult(statistic=56.87954880748067, pvalue=4.4541302205934914e-13) *** </br>
+   The Edgar Award:  NormaltestResult(statistic=2.359730014850332, pvalue=0.3073202217491422) </br>
+   RITA Award:  NormaltestResult(statistic=0.37876843912625086, pvalue=0.8274685160178017) </br>
+   No awards:  NormaltestResult(statistic=1117.052423000484, pvalue=2.7236314923093435e-243) *** </br>
+</html>
+
+
 
 ![normDist](https://user-images.githubusercontent.com/92626980/146302035-19f33e8d-796d-4bc7-96a2-c0a98a2bd9a6.png)
 
-Test for equal variances:  LeveneResult(statistic=22.10988349601877, pvalue=3.456598775568692e-22) *** </br>
-Ratio of largest to smallest variance:  2.058440007988861
+<html>
+   Test for equal variances:  LeveneResult(statistic=22.10988349601877, pvalue=3.456598775568692e-22) *** </br>
+   Ratio of largest to smallest variance:  2.058440007988861
+</html>
 
 ANOVA also requires independent samples. One book can have many awards which could violate the independence assumption. To check the similarity, this is a lower matrix showing how many times different awards are given to the same book. Naturally, books with no award never have an award. Otherwise there is minimal overlap, mainly with The Goodreads Choice Award. As the comparison is between made between books with no awards and the awards individually, it shouldn't be a problem.
 
 <img width="350" alt="dissimMatrix" src="https://user-images.githubusercontent.com/92626980/146302174-6e9c28a2-142c-4113-adc0-70f5c7cf32cc.png">
 
-statistic = 52.98084321664306 </br>
-pvalue = 2.5180982652975606e-46 </br>
-df = (5.0, 667.7997813052062) </br>
-df_num = 5.0 </br>
-df_denom = 667.7997813052062 </br>
-nobs_t = 29660.0 </br>
-n_groups = 6 </br>
-means = array([3.79096136, 4.03115871, 4.04848271, 3.9242717 , 4.03637166,
-           3.98454849]) </br>
-nobs = array([  214.,   228.,  1783.,   204.,   295., 26936.]) </br>
-vars_ = array([0.070358  , 0.04584779, 0.06553732, 0.04602772, 0.03991293,
-           0.08215836]) </br>
-use_var = 'unequal' </br>
-welch_correction = True </br>
-tuple = (52.98084321664306, 2.5180982652975606e-46) </br>
+<html>
+   statistic = 52.98084321664306 </br>
+   pvalue = 2.5180982652975606e-46 </br>
+   df = (5.0, 667.7997813052062) </br>
+   df_num = 5.0 </br>
+   df_denom = 667.7997813052062 </br>
+   nobs_t = 29660.0 </br>
+   n_groups = 6 </br>
+   means = array([3.79096136, 4.03115871, 4.04848271, 3.9242717 , 4.03637166, 3.98454849]) </br>
+   nobs = array([  214.,   228.,  1783.,   204.,   295., 26936.]) </br>
+   vars_ = array([0.070358  , 0.04584779, 0.06553732, 0.04602772, 0.03991293, 0.08215836]) </br>
+   use_var = 'unequal' </br>
+   welch_correction = True </br>
+   tuple = (52.98084321664306, 2.5180982652975606e-46) </br>
+</html>
 
 #### R output
 
