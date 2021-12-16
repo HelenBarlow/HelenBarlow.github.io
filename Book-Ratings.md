@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Book Rating Analysis"
+permalink: /book-ratings/
+---
+
 ## Investigating Factors Influencing the Quality of Books
 
 This analysis attempts to define a few rule-of-thumb measures to see if they can help to assess the quality of a book. 
@@ -26,4 +32,5 @@ There is no clear relationship between ratings, price and length, or between rat
 There was also a significant relationship between good books and good movie adaptions, with around 15% of the variation in movie ratings being explained by the book ratings (Rsq=0.155, p=1.29e-11).
 
 ![YrRatingDists](https://user-images.githubusercontent.com/92626980/146285177-445d9f4c-5c7b-48b3-888f-ba2bdf98c5d0.png)
+
 
