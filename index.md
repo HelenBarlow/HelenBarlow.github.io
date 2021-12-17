@@ -7,3 +7,4 @@ I'm currently doing my masters in data science, looking to pivot careers. At the
 
 <a href="https://helenbarlow.github.io/one-million-headlines">One Million Headlines in One Minute:</a> An animated word map highlighting the most common words used in ABC news headlines 
 
+<a href="https://helenbarlow.github.io/DeathRate.html"> COVID-19 Death Rates:</a> A comparison of COVID-19 death rates between NSW and Vic during Sep/Oct 2021
