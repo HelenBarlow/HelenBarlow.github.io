@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: "Helen Barlow" #left title of page
+description: "Portfolio of work"
+logo: "/mandelbrot/png"
 email: helen.barlow@gmx.com
