@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+title: "Helen Barlow" #left title of page
+description: "Portfolio of work"
+logo: "https://github.com/HelenBarlow/HelenBarlow.github.io/blob/HelenBarlow-patch-1/mandelcircle.png?raw=true"
+email: helen.barlow@gmx.com
