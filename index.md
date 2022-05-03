@@ -6,8 +6,3 @@ I'm currently doing my masters in data science, looking to pivot careers. At the
 <a href="https://helenbarlow.github.io/BookRatingAnlysFinal.html">Book Rating Analysis:</a> An analysis attempting to define a few rule-of-thumb measures to guide book selection 
 
 <a href="https://helenbarlow.github.io/one-million-headlines">One Million Headlines in One Minute:</a> An animated word map highlighting the most common words used in ABC news headlines 
-
-<a href="https://helenbarlow.github.io/DeathRate.html"> COVID-19 Death Rates Part 1:</a> A comparison of COVID-19 death rates between NSW and Vic during Sep/Oct 2021
-
-<a href="https://helenbarlow.github.io/DeathLag.html"> COVID-19 Death Rates Part 2:</a> A discussion of lag times and underlying distribution
-
